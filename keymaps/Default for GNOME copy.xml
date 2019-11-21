@@ -1,9 +1,0 @@
-<keymap version="1" name="Default for GNOME copy" parent="Default for GNOME">
-  <action id="$Redo">
-    <keyboard-shortcut first-keystroke="ctrl y" />
-  </action>
-  <action id="Editor Redo">
-    <keyboard-shortcut first-keystroke="ctrl y" />
-  </action>
-  <action id="EditorDeleteLine" />
-</keymap>
