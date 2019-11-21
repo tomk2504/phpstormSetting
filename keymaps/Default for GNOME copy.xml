@@ -1,26 +1,50 @@
 <keymap version="1" name="Default for GNOME copy" parent="Default for GNOME">
   <action id="ChangesView.Diff" />
   <action id="ChangesView.UnshelveSilently" />
-  <action id="CheckinProject" />
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="shift ctrl c" />
+  </action>
   <action id="CompareTwoFiles" />
   <action id="Console.TableResult.CloneRow" />
+  <action id="CopyPaths" />
   <action id="DatabaseView.CopyAction" />
+  <action id="DatabaseView.CopyDdlAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt g" />
+  </action>
+  <action id="DecrementWindowHeight" />
   <action id="Diff.ShowDiff" />
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
+  </action>
   <action id="EditorDuplicate" />
   <action id="EditorToggleCase" />
+  <action id="ExpressionTypeInfo" />
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.TogglePathShowing" />
   <action id="FindNext">
     <keyboard-shortcut first-keystroke="ctrl k" />
   </action>
   <action id="FindPrevious" />
+  <action id="Git.Stash">
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
   <action id="Git.Unstash">
-    <keyboard-shortcut first-keystroke="ctrl alt u" />
     <keyboard-shortcut first-keystroke="shift ctrl u" />
+    <keyboard-shortcut first-keystroke="ctrl alt u" />
   </action>
   <action id="GotoSuperMethod" />
+  <action id="IncrementWindowHeight" />
+  <action id="MoveStatementDown" />
+  <action id="MoveStatementUp" />
   <action id="ParameterInfo" />
+  <action id="ResetColumnsWidth" />
+  <action id="ResizeToolWindowDown" />
+  <action id="ResizeToolWindowUp" />
   <action id="RunDashboard.CopyConfiguration" />
+  <action id="SaveAs" />
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="alt j" />
     <keyboard-shortcut first-keystroke="ctrl d" />
@@ -30,6 +54,10 @@
   <action id="ShowUmlDiagramPopup" />
   <action id="UnselectPreviousOccurrence">
     <keyboard-shortcut first-keystroke="ctrl u" />
+  </action>
+  <action id="Vcs.Push">
+    <keyboard-shortcut first-keystroke="shift ctrl k" />
+    <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
   <action id="XDebugger.CopyWatch" />
   <action id="openAssertEqualsDiff" />
