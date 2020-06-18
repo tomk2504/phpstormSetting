@@ -1,11 +1,6 @@
 <application>
-  <component name="MessDetector">
-    <phpmd_settings_migrated />
-  </component>
   <component name="PhpAutoImport" auto_import_file_scope="true" />
-  <component name="PhpCodeSniffer">
-    <phpcs_settings_migrated />
-  </component>
+  <component name="PhpDebugGeneral" xdebug_resolve_breakpoints="false" />
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter id="07190fde-7de9-4d65-b3b7-119907f8d395" name="PHP 7.2" home="/usr/bin/php" debugger_id="php.debugger.XDebug" debugger_extension="$USER_HOME$/www/ms/sms_wallet/phpunit.xml.dist" />
